@@ -1,3 +1,115 @@
+.App,
+div,
+h3,
+ul,
+li,
+span,
+img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
 .App {
   text-align: center;
+  color: hsl(180, 29%, 50%);
+}
+
+.page-header {
+  background-color: hsl(180, 8%, 52%);
+}
+
+.container {
+  padding: 5vw;
+}
+
+.job-listing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 2.5rem;
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+.featured-job-listing {
+  border-left: 0.5em solid hsl(180, 29%, 50%);
+}
+
+.job-listing div:first-child {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.general-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 1.5em;
+}
+
+.headings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.headings * {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.NEW,
+.FEATURED {
+  padding: 0.5em 1em;
+  border-radius: 1.2em;
+  color: white;
+}
+
+.NEW {
+  margin-left: 0.5em;
+  background-color: hsl(180, 29%, 50%);
+}
+
+.FEATURED {
+  background-color: hsl(180, 14%, 20%);
+}
+
+.job-title {
+  color: hsl(180, 14%, 20%);
+}
+
+.miscellaneous-data {
+  display: flex;
+  align-items: center;
+  color: hsl(180, 8%, 52%);
+}
+
+.miscellaneous-data * {
+  margin: 0 1em;
+}
+
+.miscellaneous-data li:first-child {
+  list-style: none;
+  margin-left: 0;
+}
+
+.skills {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.fake-button {
+  margin-right: 1rem;
+  padding: 0.8rem;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: hsl(180, 31%, 95%);
+  border-radius: 0.3rem;
 }
