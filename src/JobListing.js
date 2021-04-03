@@ -1,8 +1,4 @@
-import Logo from "./Logo";
-import Headings from "./Headings";
-import JobTitle from "./JobTitle";
-import Miscellaneous from "./Miscellaneous";
-import Skills from "./Skills";
+import { Logo, Headings, JobTitle, Miscellaneous, Skills } from "./Entities";
 
 const JobListing = ({ listing }) => {
   let featured = "";
