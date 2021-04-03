@@ -1,5 +1,5 @@
 import "./App.css";
-import jobListings from "./data.json";
+import jobListingsData from "./data.json";
 import JobListing from "./JobListing";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
         <img src="./images/bg-header-desktop.svg" alt="header background" />
       </header>
       <div className="container">
-        {jobListings.map((jobListing, index) => {
+        {jobListingsData.map((jobListing, index) => {
           return <JobListing key={index} listing={jobListing} />;
         })}
       </div>
