@@ -64,19 +64,21 @@ img {
   margin-right: 0.5em;
 }
 
-.NEW,
-.FEATURED {
-  padding: 0.5em 1em;
+
+.new,
+.featured {
+  padding: 0.7em 1em 0.5em;
   border-radius: 1.2em;
+  font-size: 10px;
   color: white;
 }
 
-.NEW {
+.new {
   margin-left: 0.5em;
   background-color: hsl(180, 29%, 50%);
 }
 
-.FEATURED {
+.featured {
   background-color: hsl(180, 14%, 20%);
 }
 
@@ -91,7 +93,9 @@ img {
 }
 
 .miscellaneous-data * {
-  margin: 0 1em;
+  margin: 0 0.9em;
+  padding:0 0.2em;
+  font-size: 15px;
 }
 
 .miscellaneous-data li:first-child {
